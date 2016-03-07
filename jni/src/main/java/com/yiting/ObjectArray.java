@@ -9,7 +9,7 @@ public class ObjectArray {
     public static void main(String[] args) {
         int[][] arr = initInt2DArray(3);
         for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
                 System.out.println("arr[][]:"+arr[i][j]);
             }
             System.out.println("=============");
